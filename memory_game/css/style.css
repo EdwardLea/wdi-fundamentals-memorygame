@@ -116,3 +116,9 @@ text-align: center;
 .resetPrompt{
 opacity: 0;
 }
+
+.github{
+font-family: "Droid Serif", serif;
+color: #0D2C40;
+text-transform: lowercase;
+}
