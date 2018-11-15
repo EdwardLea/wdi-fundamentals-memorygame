@@ -54,7 +54,7 @@ var flipCard = function(){
 	this.setAttribute('src', cards[cardId].cardImage);
 	if(cardsInPlay.length === 2){
 		checkForMatch();
-		rankesultsArray.unshift("User flipped " + cardsInPlay[0] +" and " + cardsInPlay[1]);
+		resultsArray.unshift("User flipped " + cardsInPlay[0] +" and " + cardsInPlay[1]);
 	}else if (cardsInPlay.length > 2) {
 		resetBoard();
 }
